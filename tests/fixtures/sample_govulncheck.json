@@ -1,0 +1,33 @@
+{
+  "vulns": [
+    {
+      "osv": {
+        "id": "GO-2023-1234",
+        "summary": "Vulnerability in golang.org/x/net",
+        "details": "HTTP/2 vulnerability allows denial of service",
+        "references": [
+          {
+            "url": "https://pkg.go.dev/vuln/GO-2023-1234"
+          }
+        ],
+        "database_specific": {
+          "cvss_score": 7.5
+        }
+      },
+      "module": {
+        "path": "golang.org/x/net",
+        "version": "v0.10.0"
+      },
+      "callstacks": [
+        [
+          {
+            "function": "main.main",
+            "file": "main.go",
+            "line": 42
+          }
+        ]
+      ]
+    }
+  ]
+}
+
