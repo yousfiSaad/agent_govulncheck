@@ -1,0 +1,5 @@
+.dockerignore
+Dockerfile
+.github
+tests
+README.md
